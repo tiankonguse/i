@@ -1,3 +1,19 @@
+.container{
+	width: 1200px;
+}
+
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{
+	width: 1100px;
+}
+
+.table tbody tr.contest_do>td {
+	background-color: rgb(214, 167, 205);
+}
+
+.table tbody tr.contest_end>td {
+background-color: rgb(202, 202, 196);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,18 +27,56 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 }
 
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-	display: block;
+
+.err {
+	background: url(../img/icon_del.gif) no-repeat left center;
+	color: Red;
+	text-indent: 15px;
+}
+.ok {
+	background: url(../img/ok.gif) no-repeat left center;
+	color: #116D1E;
+	text-indent: 15px;
+}
+.text-error{
+	color: Red;
 }
 
-body{
-	cursor: url(../cursors/cursorActive.cur), url(../cursors/cursorActive.png), auto;
+.width1{
+	width:10px;
+}
+.width2{
+	width:20px;
 }
 
-a{
-	cursor: url(../cursors/handcursor.cur), auto;
+.margin-left2{
+	margin-left:20px;
 }
 
+.height1{
+	height:10px;
+}
+.height2{
+	height:20px;
+}
+.height5{
+	height:50px;
+}
+
+.right-iframe{
+	width: 870px;
+	height:500px;
+}
+
+.content-center{
+	height:auto;
+}
+
+.content-center .content{
+	width:600px;
+	height:300px;
+	visibility:hidden;
+}
 
 html{ 
 	margin:0;
@@ -33,7 +87,6 @@ body{
 	font-size: 20px;
 	color:#333333;
 }
-
 .title{
 	font-size: 50px;
 	text-align:center;
@@ -41,79 +94,87 @@ body{
 	margin:50px 0 0 0;
 	
 }
-
-.container{
-	width:auto;
-	min-width:100px;
-	max-width:500px;
+.logo{
+	display:block;
+	margin:20px auto;
+	width:276px;
+	height:303px;
+	
+	overflow:hidden;
+}
+.workListBoard{
+	width:500px;
 	min-height:400px;
 	margin:0 auto;
 	margin-top: 50px;
 	
 }
-.container h3{
+.workListBoard h3{
 	font-size: 30px;
 	font-weight: normal;
 	text-align:center;
 	color:#999999;
 
 }
-
-ul.item-list{
+ul.workList{
+	
 	padding:0;
 }
-
-ul.item-list li{
+.workList li{
+	
 	font-size: 20px;
 	text-align:center;
 	list-style:none;
 	
 }
 
-ul.item-list a:link,
-ul.item-list a:visited,
-ul.item-list a:active{
+
+.workList a:link,
+.workList a:visited,
+.workList a:active{
 	display:block;
 	color:#5FB7E9;
 	text-decoration:none;
 	line-height:36px;
 	height:36px;
 
-	-webkit-transition: background 500ms ease-in-out 0ms, color 500ms ease-in-out 0ms;
-	-moz-transition:    background 500ms ease-in-out 0ms, color 500ms ease-in-out 0ms;
-	-ms-transition:     background 500ms ease-in-out 0ms, color 500ms ease-in-out 0ms;
-	-o-transition:      background 500ms ease-in-out 0ms, color 500ms ease-in-out 0ms;
-	transition:         background 500ms ease-in-out 0ms, color 500ms ease-in-out 0ms;
+	-webkit-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-moz-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-ms-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	-o-transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
+	transition: background 500ms ease-in 0ms, color 500ms ease-in 0ms;
 	
 	-webkit-border-radius: 5px;
-	-moz-border-radius:    5px;
-	-ms-border-radius:     5px;
-	-o-border-radius:      5px;
-	border-radius:         5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	
+
+
 }
 
 
-ul.item-list a:hover,
-ul.item-list a:focus{
+.workList a:hover,
+.workList a:focus{
 	outline:none;	
 	color:white;
 	background:#BBD631;
-	-webkit-transition: background 250ms ease-in-out 0ms, color 250ms ease-in-out 0ms;
-	-moz-transition:    background 250ms ease-in-out 0ms, color 250ms ease-in-out 0ms;
-	-ms-transition:     background 250ms ease-in-out 0ms, color 250ms ease-in-out 0ms;
-	-o-transition:      background 250ms ease-in-out 0ms, color 250ms ease-in-out 0ms;
-	transition:         background 250ms ease-in-out 0ms, color 250ms ease-in-out 0ms;
+	-webkit-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-moz-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-ms-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	-o-transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
+	transition: background 250ms ease-in 0ms, color 250ms ease-in 0ms;
 }
 
-
-.item-list .new {
+.new {
 	color:#FF0052;
 	font-size:12px;
 	margin:auto 0 0 10px;
 	vertical-align: super;
 }
 
-.item-list .remark{
+.remark{
 	color:rgb(86, 238, 0);
 	font-size:12px;
 	margin:auto 0 0 10px;
@@ -121,65 +182,22 @@ ul.item-list a:focus{
 }
 
 
-.footer {
-	color: #999999;
-	font-family: Tahoma;
-	font-size: 12px;
-	text-align: center;
-	padding: 30px 0;
-	margin-top: 70px;
-	border-top: 1px solid #e5e5e5;
-	background-color: #f5f5f5;
-}
-
-.footer a {
-	color: #999999;
-	text-decoration: none;
-}
-
 .copyright{
+	margin:50px 0 0 0;
+	height:50px;
 	color:#999999;
 	font-family:Tahoma;
 	font-size: 12px;
 	text-align:center;
 }
 
-
-.backToTopButton{
-	bottom: 1%;
-	width: 57px;
-	height: 57px;
-	overflow: hidden;
-	cursor: url(../cursors/handcursor.cur), pointer, auto;
-	left: 90%;
-	
-	-webkit-transition: 	opacity;
-	-moz-transition:    	opacity;
-	-ms-transition:     	opacity;
-	-o-transition:      	opacity;
-	transition:             opacity;
-
-	position: fixed;
-	display: block;
-	opacity: 0.6;
-	z-index: 1025;
+.copyright a{
+	color:#999999;
+	text-decoration:none;
 }
 
-.backToTopButton .back2top-icon-bg{
-	width: 40px;
-	height: 40px;
-	overflow: hidden;
-	position: absolute;
-	top: 7px;
-	left: 7px;	
+.copyright a:hover,
+.copyright a:focus{
+	outline:none;
+	text-decoration:underline;
 }
-
-.backToTopButton .back2top-icon-real{
-	url(../img/back_to_top.png) no-repeat -70px top;
-	width: 57px;
-	height: 57px;
-	overflow: hidden;
-	position: absolute;
-}
-
-
