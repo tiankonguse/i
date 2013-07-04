@@ -1,6 +1,6 @@
-<div class="workListBoard">
+<div class="container">
 	<h3>tiankonguse 正在做的事</h3>
-	<ul class="workList">
+	<ul class="item-list">
 		<li>
 			<a target="_blank" href="/rose/">
 				送给女朋友的玫瑰

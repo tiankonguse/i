@@ -1,13 +1,26 @@
-<?php
-session_start();
-$title = "tiankonguse的世界";
-include_once('inc/header.inc.php');
-?>
-<div class="container">
-	<?php include_once('inc/index.top.php'); ?>
-	<?php include_once("inc/index.body.php") ?>	
-</div>
-
-<?php 
-	include_once('inc/footer.inc.php'); 
-?>
+<?php session_start(); ?>
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+	<head>
+		<?php
+		$title = "tiankonguse的世界";
+		include_once('inc/header.inc.php');
+		?>
+	</head>
+	
+	<body>
+		<header>
+			<?php include_once('inc/index.top.php'); ?>
+		</header>
+		
+		<section>
+			<?php include_once("inc/index.body.php") ?>	
+		</section>
+		
+		<footer>
+			<?php  include_once('inc/footer.inc.php'); ?>
+		</footer>
+		
+		<?php include_once("inc/index.backTop.php") ?>	
+	</body>
+</html>
