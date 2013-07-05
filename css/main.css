@@ -28,6 +28,7 @@ html{
 	margin:0;
 	padding:0;
 }
+
 body{
 	font-family:'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
 	font-size: 20px;
@@ -38,7 +39,7 @@ body{
 	font-size: 50px;
 	text-align:center;
 	color:#666666;
-	margin:50px 0 0 0;
+	margin: 50px 0 50px 0;
 	
 }
 
@@ -51,6 +52,7 @@ body{
 	margin-top: 50px;
 	
 }
+
 .container h3{
 	font-size: 30px;
 	font-weight: normal;
@@ -142,6 +144,7 @@ ul.item-list a:focus{
 	font-family:Tahoma;
 	font-size: 12px;
 	text-align:center;
+	margin-bottom: 5px;
 }
 
 
@@ -150,7 +153,7 @@ ul.item-list a:focus{
 	width: 57px;
 	height: 57px;
 	overflow: hidden;
-	cursor: url(../cursors/handcursor.cur), pointer, auto;
+	cursor: url(../cursors/handcursor.cur), pointer;
 	left: 90%;
 	
 	-webkit-transition: 	opacity;
@@ -175,7 +178,6 @@ ul.item-list a:focus{
 }
 
 .backToTopButton .back2top-icon-real{
-	url(../img/back_to_top.png) no-repeat -70px top;
 	width: 57px;
 	height: 57px;
 	overflow: hidden;

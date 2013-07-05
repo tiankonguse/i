@@ -4,7 +4,7 @@
 	<head>
 		<?php
 		$title = "tiankonguse的世界";
-		include_once('inc/header.inc.php');
+		include_once('inc/index.header.php');
 		?>
 	</head>
 	
@@ -18,7 +18,7 @@
 		</section>
 		
 		<footer>
-			<?php  include_once('inc/footer.inc.php'); ?>
+			<?php  include_once('inc/index.footer.php'); ?>
 		</footer>
 		
 		<?php include_once("inc/index.backTop.php") ?>	
