@@ -184,4 +184,47 @@ ul.item-list a:focus{
 	position: absolute;
 }
 
+.alert{
+	padding-top: 8px;
+	padding-right: 35px;
+	padding-bottom: 8px;
+	padding-left: 14px;
+	margin-bottom: 20px;
+	border-top-color: #fbeed5;
+	border-right-color: #fbeed5;
+	border-bottom-color: #fbeed5;
+	border-left-color: #fbeed5;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: rgb(252, 248, 227);
+	padding:8px 35px 8px 14px;
+	margin-bottom:20px;
+	text-shadow:0 1px 0 rgba(255,255,255,0.5);
+	background-color:#fcf8e3;
+	border:1px solid #fbeed5;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	color:#c09853;
+}
 
+.alert h4{
+	color:#c09853;
+	margin:0;
+}
+
+
+.alert-block{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+.alter-ie{
+	padding:10px 40px 10px 60px;
+}
