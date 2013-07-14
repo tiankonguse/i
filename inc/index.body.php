@@ -78,7 +78,7 @@
 		</li>
 		
 		<li>
-			<a target="_blank" href="/zwhz/">
+			<a target="_blank" href="http://webf.nenu.edu.cn/zwhz/index.php">
 				中外合作办学网站
 			</a>
 		</li>

@@ -3,5 +3,8 @@
 <link rel="shortcut icon" href="img/tiankonguse.ico" /> 
 <title><?php echo $title; ?></title>
 <link href="css/main.css" rel="stylesheet">
+<link href="css/animation.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
 <script src="js/jquery.js"></script>
+<script src="js/common.js"></script>
 

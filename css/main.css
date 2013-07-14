@@ -16,11 +16,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 body{
-	cursor: url(../cursors/cursorActive.cur), url(../cursors/cursorActive.png), auto;
+	cursor: url(../img/cursors/cursorActive.cur), url(../img/cursors/cursorActive.png), auto;
 }
 
 a{
-	cursor: url(../cursors/handcursor.cur), auto;
+	cursor: url(../img/cursors/handcursor.cur), auto;
 }
 
 
@@ -153,7 +153,7 @@ ul.item-list a:focus{
 	width: 57px;
 	height: 57px;
 	overflow: hidden;
-	cursor: url(../cursors/handcursor.cur), pointer;
+	cursor: url(../img/cursors/handcursor.cur), pointer;
 	left: 90%;
 	
 	-webkit-transition: 	opacity;
