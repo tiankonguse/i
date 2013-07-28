@@ -8,3 +8,7 @@
 <script src="js/jquery.js"></script>
 <script src="js/common.js"></script>
 
+<meta name="description" content="<?php echo $title; ?>">
+<meta name="author" content="tiankonguse">
+
+

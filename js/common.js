@@ -35,6 +35,6 @@
 			}
 			$(window).scrollTop($(window).scrollTop() - _step);
 		}, 10);
-	}
+	};
 })();
 
