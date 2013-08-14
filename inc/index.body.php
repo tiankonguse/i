@@ -1,6 +1,30 @@
 <div class="container">
 	<h3>tiankonguse 正在做的事</h3>
 	<ul class="item-list">
+		<li>
+			<a target="_blank" href="/canvas/ex3.html">
+				借别人的东西来过七夕1
+				<span class="new">新</span>
+			</a>
+		</li>		
+		<li>
+			<a target="_blank" href="/canvas/ex5.html">
+				借别人的东西来过七夕2
+				<span class="new">新</span>
+			</a>
+		</li>		
+		<li>
+			<a target="_blank" href="/canvas/ex6.html">
+				借别人的东西来过七夕3
+				<span class="new">新</span>
+			</a>
+		</li>		
+		<li>
+			<a target="_blank" href="/canvas/ex10.html">
+				借别人的东西来过七夕4
+				<span class="new">新</span>
+			</a>
+		</li>		
 
 		<li>
 			<a target="_blank" href="/rjbq/">
