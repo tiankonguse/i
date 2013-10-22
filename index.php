@@ -24,15 +24,19 @@ require BASE_INC . 'head.inc.php';
         <div class="container">
             <h3>tiankonguse 正在做的事</h3>
             <ul class="item-list">
+                <li><a target="_blank" href="<?php echo DOMAIN_LAB;?>"> 实验室
+                        <span class="new">新</span>
+                </a>
+                </li>
                 <li><a target="_blank" href="/game/sokoban.php"> 用心打造游戏
                         <span class="new">新</span>
                 </a>
                 </li>
                 <li>
                 
-                <li><a target="_blank" href="/rjbq/"> 人间冰器 </a>
+                <li><a target="_blank" href="<?php echo DOMAIN_RJBQ;?>"> 人间冰器 </a>
                 </li>
-                <li><a target="_blank" href="/record/"> 记录集 <span
+                <li><a target="_blank" href="<?php echo DOMAIN_RECORD;?>"> 记录集 <span
                         class="new">新</span>
                 </a>
                 </li>
@@ -44,7 +48,7 @@ require BASE_INC . 'head.inc.php';
                 </li>
                 <li><a target="_blank" href="/blog/"> 博客 </a>
                 </li>
-                <li><a target="_blank" href="/timeline/"> 生活记录轴 </a>
+                <li><a target="_blank" href="<?php echo DOMAIN_TIMELINE;?>"> 生活记录轴 </a>
                 </li>
                 <li><a target="_blank" href="/vatirk/"> acm vatirk团队 </a>
                 </li>
