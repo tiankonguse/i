@@ -56,8 +56,7 @@ require BASE_INC . 'head.inc.php';
                 </li>
                 <li><a target="_blank" href="/rose/"> 送给女朋友的玫瑰 </a>
                 </li>
-                <li><a target="_blank" href="/earth/"> canvas 画地球 </a>
-                </li>
+
                 <li><a target="_blank"
                     href="http://webf.nenu.edu.cn/zwhz/index.php">
                         中外合作办学网站 </a>
