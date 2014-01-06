@@ -9,7 +9,12 @@ require ("./inc/common.php");
 $title = "tiankonguse' 世界";
 require BASE_INC . 'head.inc.php';
 ?>
-<link href="<?php echo MAIN_DOMAIN;?>css/main.css" rel="stylesheet">
+
+
+<script type="text/javascript">
+TK.loader.loadCSS({url:"<?php echo MAIN_PATH;?>css/main.css"});
+</script>
+
 </head>
 
 <body>
@@ -30,24 +35,24 @@ require BASE_INC . 'head.inc.php';
 					href="<?php echo DOMAIN_LAB;?>girlfriend/index.php"> 女朋友 <span
 						class="new">新</span>
 				</a></li>
-				<li><a target="_blank" href="<?php echo DOMAIN_RECORD;?>"> 记录集 </a></li>
+				<li><a target="_blank" href="<?php echo DOMAIN_RECORD;?>"> 记录集 </a>
+				</li>
 				<li><a target="_blank" href="/firstblog/"> first blog </a></li>
 				<li><a target="_blank" href="/messagefk/"> 信息反馈系统 </a></li>
 				<li><a target="_blank" href="/blog/"> 博客 </a></li>
 				<li><a target="_blank" href="<?php echo DOMAIN_TIMELINE;?>"> 生活记录轴 </a>
 				</li>
 				<li><a target="_blank" href="/resume/"> 我的简历 </a></li>
-
 			</ul>
 		</div>
 	</section>
 
-	<script src="<?php echo DOMAIN_JS;?>jquery.js"></script>
 	<footer>
-    <?php  require BASE_INC . 'footer.inc.php'; ?>
-    </footer>
-
-	<script src="<?php echo DOMAIN_JS;?>main.js"></script>
+		<?php  require BASE_INC . 'footer.inc.php'; ?>
+	</footer>
+	<script>
+	TK.loader.loadJS({url:"<?php echo PATH_JS;?>main.js"});
+	</script>
 
 </body>
 </html>

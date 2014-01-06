@@ -19,15 +19,11 @@ if (strcmp ( $dirName, "public_html" ) == 0) {
     ! defined ( "ROOT" ) && define ( "ROOT", dirname ( $_SERVER ['DOCUMENT_ROOT'] ) );
 }
 
-
 require ROOT."/common/inc/common.php";
 
-if (strcmp ( $dirName, "public_html" ) == 0) {
-    ! defined ( "MAIN_DOMAIN" ) && define ( "MAIN_DOMAIN", DOMAIN . "/lab/" );
-} else {
-    ! defined ( "SUB_DOMAIN" ) && define ( "SUB_DOMAIN", "http://lab." . _DOMAIN );
-    ! defined ( "MAIN_DOMAIN" ) && define ( "MAIN_DOMAIN", SUB_DOMAIN . "/" );
-}
+! defined ( "MAIN_DOMAIN" ) && define ( "MAIN_DOMAIN", DOMAIN . "/i/");
+!defined("MAIN_PATH")  && define("MAIN_PATH", "/i/");
+
 require BASE_INC . "init.php";
 require BASE_INC . "php_version.php";
 require BASE_INC . "JSON.php";
