@@ -46,12 +46,11 @@ TK.loader.loadCSS({url:"<?php echo MAIN_PATH;?>css/main.css"});
 			</ul>
 		</div>
 	</section>
-
 	<footer>
 		<?php  require BASE_INC . 'footer.inc.php'; ?>
 	</footer>
 	<script>
-	TK.loader.loadJS({url:"<?php echo PATH_JS;?>main.js"});
+	TK.loader.loadJS({url:"<?php echo PATH_JS;?>main.js",v:"1.02"});
 	</script>
 
 </body>
