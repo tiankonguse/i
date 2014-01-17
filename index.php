@@ -29,17 +29,18 @@ TK.loader.loadCSS({url:"<?php echo MAIN_PATH;?>css/main.css"});
 		<div class="container">
 			<ul class="item-list">
 				<li><a target="_blank" href="<?php echo DOMAIN_LAB;?>"> 实验室 <span
-						class="new">新</span>
+						class="new">new</span>
 				</a></li>
-				<li><a target="_blank"
-					href="<?php echo DOMAIN_LAB;?>girlfriend/index.php"> 女朋友 <span
-						class="new">新</span>
-				</a></li>
-				<li><a target="_blank" href="<?php echo DOMAIN_RECORD;?>"> 记录集 </a>
+				<li><a target="_blank" href="<?php echo DOMAIN_RECORD;?>"> 记录集 <span
+						class="new">new</span>
+				</a>
 				</li>
-				<li><a target="_blank" href="/firstblog/"> first blog </a></li>
-				<li><a target="_blank" href="/messagefk/"> 信息反馈系统 </a></li>
-				<li><a target="_blank" href="/blog/"> 博客 </a></li>
+				<li><a target="_blank" href="/firstblog/"> first blog <span
+						class="old">old</span>
+				</a></li>
+				<!-- <li><a target="_blank" href="/messagefk/"> 信息反馈系统 </a></li> -->
+				<li><a target="_blank" href="/blog/"> 博客 <span class="old">old</span>
+				</a></li>
 				<li><a target="_blank" href="<?php echo DOMAIN_TIMELINE;?>"> 生活记录轴 </a>
 				</li>
 				<li><a target="_blank" href="/resume/"> 我的简历 </a></li>
