@@ -53,7 +53,7 @@ TK.loader.loadJS({url:"<?php echo PATH_JS;?>main.js",v:"1.02"});
 </script>
 <div style="position: fixed; width: 100%;top: 0px;background-color: #d9edf7;   padding: 15px;   text-align: center;">
       <button type="button" style=" cursor: url(/common/img/cursors/handcursor.cur),pointer;" onclick="this.parentNode.remove();" class="close">×</button>
-      <a href="index-box.php" target="_blank" style="width: 80%;display: inline-block;"><strong style="">通知</strong> 最新版的主页已经出炉了.</a>
+      <a href="index-box.php" target="_blank" style="width: 80%;display: inline-block;"><strong style="">通知</strong> 最新版的主页已经出炉了.点击查看</a>
     </div>
 </body>
 </html>
